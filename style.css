@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.container {
+    max-width: 1550px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+header {
+    background-image: url(./d9597e221db37f94dd885e91ab17052e.png);
+    height: 120vh;
+    background-size: cover;
+}
+.header-top {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 240px;
+    height: 50px;
+    gap: 20px;
+    background-color: #009FF5B5;
+    box-shadow:  0px 4px 4px 0px #DAD3FF;
+}
+.players  p{
+    text-shadow: 0px 4px 4px #000000ea;
+}
+.language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 450px;
+    text-shadow: 0px 4px 4px #000000ea;
+}
+.header-parents button {
+    margin-top: 150px;
+    width: 600px;
+    height: 100px;
+    background-color: #FFC611;
+    border: 10px solid #5A5555;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px #0047FF;
+    text-align: center;
+    margin-left: 30%;
+}
+.card-parents {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.card-parents img {
+    width: 370px;
+    height: 330px;
+}
+.card {
+    background-color: #1F1F1F;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+    text-shadow: 0px 4px 4px #FFC200;
+}
+main {
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 23px;
+    gap: 45px;
+}
+.information {
+    font-size: 50px;
+    color: #5A5555;
+    text-shadow: 0px 4px 4px #FFFFFF;
+}
+section p {
+    width: 600px;
+    height: 140px;
+}
+section button {
+    width: 275px;
+    height: 60px;
+    background-color: #FFC200;
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px #040404CF;
+    box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+}
+section button:active {
+    background-color: #535353;
+    color: white;
+    text-shadow: 0px 4px 4px  #040404CF;
+}
+.mainleft,
+.mainright {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 55px;
+}
+
+footer {
+    background-color: #FFC611;
+}
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.footer-right {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 28px;
+}
